@@ -9,5 +9,9 @@ program
     .argument('<filepath2>')
     .option('-f, --format [type]', 'output format')
     .helpOption('-h, --help', 'display help for command')
+    .action((filepath1, filepath2) => {
+        const result = gendiff(filepath1, filepath2)
+        console.log(result)
+    })
 
     program.parse()
