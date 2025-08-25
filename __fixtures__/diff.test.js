@@ -1,8 +1,7 @@
-/* eslint-env jest */
-
 import path from 'path'
 import { fileURLToPath } from 'url'
 import diff from '../src/diff.js'
+import { test, expect } from '@jest/globals'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
