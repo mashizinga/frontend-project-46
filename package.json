@@ -21,6 +21,14 @@
   "type": "module",
   "homepage": "https://github.com/mashizinga/frontend-project-46#readme",
   "dependencies": {
-    "commander": "^14.0.0"
+    "commander": "^14.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@eslint/create-config": "^1.10.0",
+    "@eslint/js": "^9.34.0",
+    "@stylistic/eslint-plugin": "^5.2.3",
+    "eslint": "^9.34.0",
+    "globals": "^16.3.0"
   }
 }
